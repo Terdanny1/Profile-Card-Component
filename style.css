@@ -59,10 +59,17 @@ body {
   position: absolute;
   font-size: 18px;
   display: inline-block;
- bottom: 28%;
- left: 42%;
-
+  bottom: 28%;
+  left: 42%;
 }
 .text-container h1 span {
   color: hsl(0, 0%, 59%);
+}
+.others {
+  color: hsl(229, 23%, 23%);
+  border-top: 0.1px solid hsl(0, 0%, 59%);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  margin: 17% auto;
 }
