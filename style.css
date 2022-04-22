@@ -1,0 +1,38 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.pattern-top {
+  position: absolute;
+  bottom: 50%;
+  left: 45px;
+}
+.pattern-bottom {
+  position: absolute;
+  top: 65%;
+  right: 45px;
+}
+.container {
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 37%;
+}
+.image-container {
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 400px;
+  height: 150px;
+  top: 10%;
+}
+.image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 400px;
+  height: 150px;
+}
