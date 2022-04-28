@@ -71,5 +71,30 @@ body {
   display: flex;
   justify-content: space-evenly;
   font-size: 18px;
-  margin: 17% auto;
+ 
 }
+.stats{
+  margin: 0;
+  padding-top: 22px;
+  text-align: center;
+
+}
+.stats h1{
+  margin: 0;
+}
+.stats p{
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px){
+
+.victor{
+ margin-left: 30%;
+ margin-bottom: 20%;
+  
+}
+
+}
+  
+
